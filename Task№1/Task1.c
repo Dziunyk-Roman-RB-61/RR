@@ -1,5 +1,4 @@
-#include <stdio.h> // підключення стандартної бібліотеки вводу-виводу (printf, scanf, getchar)
-
+#include <stdio.h> 
 // оголошення функції, яка очищує буфер вводу від некоректних символів (прототип функції)
 void clearInputBuffer(void);
 
@@ -83,5 +82,5 @@ double calculateSeriesSum(double a, int N)
         sum = sum + power / (a + (double)n); // додавання до суми n-го члена ряду; явне перетворення n до double для дійсного ділення
     }
 
-    return sum; // повернення обчисленого значення суми ряду у місце виклику функції
+    return sum; 
 }
