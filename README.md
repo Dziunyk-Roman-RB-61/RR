@@ -1,9 +1,9 @@
 # -# Розрахункова робота з мови програмування C
 
 **Варіант:** 4
-**Виконав:** студент групи _<група>_ _<Прізвище Ім'я По батькові>_
+**Виконав:** Дзюник Роман Рб 61
 
-**Мова повідомлень програм:** англійська (спеціальне налаштування кодування консолі не потрібне)
+**Мова повідомлень програм:** англійська 
 
 ---
 
@@ -104,27 +104,6 @@ double calculateSeriesSum(double a, int N)
     printf("Series sum S = %.10f\n", S);
 ```
 
-### Приклад роботи (`task1/main.c`)
-
-```
-Enter the value of variable a (a >= 0): -1
-Error: the value of a must be non-negative.
-Enter the value of variable a (a >= 0): abc
-Error: a number is required.
-Enter the value of variable a (a >= 0): 1
-Enter an integer N (N >= 1): 0
-Error: the value of N must be at least 1.
-Enter an integer N (N >= 1): xyz
-Error: an integer is required.
-Enter an integer N (N >= 1): 5
-a = 1.0000, N = 5
-Series sum S = 2.4500000000
-```
-
-Перевірка вручну: `1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 = 2.45`.
-
----
-
 ## Завдання № 2
 
 **Файл:** `task2/main.c`
@@ -204,32 +183,6 @@ int findMaxSumColumn(double **A, int N, double *maxSum)
 
 - **Виведення матриці** реалізовано в окремій функції `printMatrix()`, елементи виводяться в полі шириною 9 символів із двома знаками після коми.
 
-### Приклад роботи (`task2/main.c`)
-
-```
-Enter the size of the square matrix N (N >= 1): 3
-Enter the elements of matrix A (3 x 3):
-A[0][0] = -1
-A[0][1] = 5
-A[0][2] = 2
-A[1][0] = 3
-A[1][1] = -4
-A[1][2] = 8
-A[2][0] = 0
-A[2][1] = 1
-A[2][2] = -6
-
-Matrix A:
-    -1.00      5.00      2.00
-     3.00     -4.00      8.00
-     0.00      1.00     -6.00
-
-Index of the column with the largest sum: 2 (zero-based)
-Number of this column (one-based): 3
-Calculated column sum: 4.0000
-```
-
----
 
 ## Тестування
 
